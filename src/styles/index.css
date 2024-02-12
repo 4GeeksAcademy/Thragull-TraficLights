@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#screen{
+    height: 100vh;
+    width: 100vw;
+}
+#trafficLights{
+    width: 100px;
+    height: 300px;
+}
+#red{
+    width: 75px;
+    height: 75px;
+    left: 12.5px;
+    top: 12.5px;
+}
+#yellow{
+    width: 75px;
+    height: 75px;
+    left: 12.5px;
+    top: 112.5px;
+}
+#green{
+    width: 75px;
+    height: 75px;
+    left: 12.5px;
+    top: 212.5px;   
+}
+.activeRed{
+    box-shadow: 1px 1px 50px red, -1px -1px 50px red;
+}
+.activeYellow{
+    box-shadow: 1px 1px 50px yellow, -1px -1px 50px yellow;
+}
+.activeGreen{
+    box-shadow: 1px 1px 50px green, -1px -1px 50px green; 
+}

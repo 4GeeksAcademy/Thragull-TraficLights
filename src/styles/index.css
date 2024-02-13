@@ -14,27 +14,30 @@
     height: 100vh;
     width: 100vw;
 }
-#trafficLights{
+/*#trafficLights{
     width: 100px;
     height: 300px;
-}
+}*/
 #red{
     width: 75px;
     height: 75px;
-    left: 12.5px;
-    top: 12.5px;
+    margin: 12.5px;
 }
 #yellow{
     width: 75px;
     height: 75px;
-    left: 12.5px;
-    top: 112.5px;
+    margin: 12.5px;
 }
 #green{
     width: 75px;
     height: 75px;
-    left: 12.5px;
-    top: 212.5px;   
+    margin: 12.5px; 
+}
+#purple{
+    width: 75px;
+    height: 75px;
+    margin: 12.5px; 
+    background-color: purple;
 }
 .activeRed{
     box-shadow: 1px 1px 50px red, -1px -1px 50px red;
@@ -44,4 +47,7 @@
 }
 .activeGreen{
     box-shadow: 1px 1px 50px green, -1px -1px 50px green; 
+}
+.activePurple{
+    box-shadow: 1px 1px 50px purple, -1px -1px 50px purple; 
 }

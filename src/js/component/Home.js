@@ -6,9 +6,9 @@ import Trafic from "./Traffic";
 //create your first component
 const Home = () => {
 	return (
-		<>
+		<div id="screen" className='position-relative'>
 			<Trafic />
-		</>
+		</div>
 	);
 };
 
